@@ -1,7 +1,13 @@
 import React from "react";
 import "./App.css";
-
 import Container from "./components/Container";
+import styled from "styled-components";
+
+const SubHeader = styled.h2`
+  font-weight: bold;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+`;
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -14,6 +20,9 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <SubHeader>
+        <strong>These are the react warriors 💀</strong>
+      </SubHeader>
       <Container />
     </div>
   );
