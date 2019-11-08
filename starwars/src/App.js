@@ -7,6 +7,7 @@ const SubHeader = styled.h2`
   font-weight: bold;
   font-size: 27px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 70px;
 `;
 
 const App = () => {

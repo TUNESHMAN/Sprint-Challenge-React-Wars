@@ -57,9 +57,16 @@ margin-bottom: 70px;
     font-weight: normal;
 }`
 
+const Border = styled.div`
+border: 1px solid black;
+width: 40%;
+background-color: white;
+margin-top: 30px;`
+
 function Card(props) {
   return (
     <div>
+    <Border>
       <Name>
         <span>I am</span> {props.name}
       </Name>
@@ -71,6 +78,7 @@ function Card(props) {
       </Hair>
       <Height><span>I am not particulary tall, i measure </span>{props.height} <span>in height</span></Height>
       <Mass><span>I have a body weight of</span> {props.mass}kg</Mass>
+      </Border>
     </div>
   );
 }
