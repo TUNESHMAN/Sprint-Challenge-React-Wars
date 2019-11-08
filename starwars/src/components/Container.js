@@ -25,6 +25,7 @@ function Container() {
             height={element.height}
             mass={element.mass}
             skin_color={element.skin_color}
+            hair_color = {element.hair_color}
           />
         );
       })}
